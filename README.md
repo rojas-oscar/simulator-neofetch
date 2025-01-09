@@ -24,8 +24,8 @@ This project is a console application that simulates the behavior of the `neofet
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your_user/your_repository.git
-   cd your_repository
+   git clone https://github.com/rojas-oscar/simulator-neofetch.git
+   cd simulator-neofetch
    ```
 
 2. Create a virtual environment (optional but recommended):
