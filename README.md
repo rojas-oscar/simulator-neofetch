@@ -75,7 +75,7 @@ When you start the application, you will see a menu with the following options:
 
 ## Example Output
 
-![Neofetch Example](./images/image-3.png)
+![Neofetch Example](./images/image-1.png)
 
 ## Project Structure
 
