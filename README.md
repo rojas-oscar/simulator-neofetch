@@ -1,95 +1,95 @@
-# Proyecto de Simulación de Neofetch
+# Neofetch Simulation Project
 
-![Portada](./images/image-2.png)
+![Cover](./images/image-2.png)
 
-<!-- <img src="./images/image.png" alt="Portada" width="400"/> -->
+<!-- <img src="./images/image.png" alt="Cover" width="400"/> -->
 
-## Descripción
+## Description
 
-Este proyecto es una aplicación de consola que simula el comportamiento de la herramienta `neofetch`, mostrando información del sistema operativo y hardware de la máquina en la que se ejecuta. Además, incluye funcionalidades adicionales como un sistema de login y registro de usuarios, y una calculadora básica.
+This project is a console application that simulates the behavior of the `neofetch` tool, displaying information about the operating system and hardware of the machine it runs on. Additionally, it includes extra features such as a login and user registration system, and a basic calculator.
 
-## Características
+## Features
 
-- **Simulación de Neofetch**: Muestra información detallada del sistema operativo, hardware y otros datos relevantes.
-- **Sistema de Login y Registro**: Permite a los usuarios registrarse y acceder a la aplicación.
-- **Calculadora Básica**: Realiza operaciones aritméticas simples.
+- **Neofetch Simulation**: Displays detailed information about the operating system, hardware, and other relevant data.
+- **Login and Registration System**: Allows users to register and access the application.
+- **Basic Calculator**: Performs simple arithmetic operations.
 
-## Requisitos
+## Requirements
 
 - Python 3.x
-- Módulos adicionales listados en `requirements.txt`
+- Additional modules listed in `requirements.txt`
 
-## Instalación
+## Installation
 
-1. Clona el repositorio en tu máquina local:
+1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/your_user/your_repository.git
+   cd your_repository
    ```
 
-2. Crea un entorno virtual (opcional pero recomendado):
+2. Create a virtual environment (optional but recommended):
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-3. Instala las dependencias necesarias:
+3. Install the necessary dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Ejecución
+## Execution
 
-Para ejecutar la aplicación, simplemente corre el archivo `app.py`:
+To run the application, simply execute the `app.py` file:
 
 ```bash
 python app.py
 ```
 
-Si solo deseas ejecutar la simulación de Neofetch:
+If you only want to run the Neofetch simulation:
 
 ```bash
 python .\modules\simulate_neofetch.py #windows
 python /modules/simulate_neofetch.py #linux & mac
 ```
 
-Si solo deseas ejecutar la calculadora:
+If you only want to run the calculator:
 
 ```bash
 python \modules\calculator.py # windows
-python /modules/calculator.py # linus & mac
+python /modules/calculator.py # linux & mac
 ```
 
-## Uso
+## Usage
 
-Al iniciar la aplicación, verás un menú con las siguientes opciones:
+When you start the application, you will see a menu with the following options:
 
-1. **Login**: Inicia sesión con un usuario registrado.
-2. **Register**: Registra un nuevo usuario.
-3. **Neofetch**: Muestra información del sistema.
-4. **Calculator**: Realiza operaciones aritméticas.
-5. **Logout**: Cierra la sesión actual.
-6. **Exit**: Sale de la aplicación.
+1. **Login**: Log in with a registered user.
+2. **Register**: Register a new user.
+3. **Neofetch**: Display system information.
+4. **Calculator**: Perform arithmetic operations.
+5. **Logout**: Log out of the current session.
+6. **Exit**: Exit the application.
 
-## Ejemplo de Salida
+## Example Output
 
-![Ejemplo de Neofetch](./images/image-3.png)
+![Neofetch Example](./images/image-3.png)
 
-## Estructura del Proyecto
+## Project Structure
 
-- `app.py`: Archivo principal de la aplicación.
-- `icons.py`: Contiene los iconos ASCII para diferentes sistemas operativos.
-- `colors.py`: Define los colores utilizados en la salida de la consola.
-- `requirements.txt`: Lista de dependencias necesarias para el proyecto.
-- `README.md`: Este archivo, con la descripción del proyecto.
-- `images/`: Carpeta que contiene las imágenes utilizadas en el README.
+- `app.py`: Main application file.
+- `icons.py`: Contains ASCII icons for different operating systems.
+- `colors.py`: Defines the colors used in the console output.
+- `requirements.txt`: List of dependencies required for the project.
+- `README.md`: This file, with the project description.
+- `images/`: Folder containing the images used in the README.
 
-## Contribuciones
+## Contributions
 
-Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que desees realizar.
+Contributions are welcome. Please open an issue or a pull request to discuss any changes you wish to make.
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+This project is under the MIT License. See the `LICENSE` file for more details.
